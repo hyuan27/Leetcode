@@ -1,6 +1,6 @@
 # Leetcode
 
-## 001. Two Sum
+## 1. Two Sum
 
 Two ways: 
 
