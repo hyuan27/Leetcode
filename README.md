@@ -1,6 +1,7 @@
 # Leetcode
 
-001. Two Sum
+## 001. Two Sum
 
-O(N^2): double loop
+Two ways: 
+O(N^2): double loop (easy way)
 O(N): Use hash map, the solution is a one pass solution
