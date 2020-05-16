@@ -33,4 +33,12 @@ Two ways
 
 2. Change to string, reverse, and return. 
 
-Second method is more straightforward, and faster as less operation and checks are required. But both algorithm should be log(x) time compexity. 
+Second method is more straightforward, and faster as less operation and checks are required. But both algorithm should be O(log(x)) time compexity. 
+
+## 9. Palindrome Number
+
+Three ways
+
+1. First one is just to compare string to reversed string, one line code woo!
+
+2. Second and Third try to only compare half the number, one by math, one by string, but not much improve on time, technically all three are O(log(x))
