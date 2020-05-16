@@ -24,3 +24,13 @@ Two ways:
 1. O(n^3): brute force to find all substrings and check
 
 2. O(n): only go through once, update the start index pointer
+
+## 7. Reverse Integer:
+
+Two ways
+
+1. Use module and divide to find each digit and reverse, slow
+
+2. Change to string, reverse, and return. 
+
+Second method is more straightforward, and faster as less operation and checks are required. But both algorithm should be log(x) time compexity. 
