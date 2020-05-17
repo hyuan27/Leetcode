@@ -86,4 +86,8 @@ Basically just a Fibonacci:
 
 Use Memoization to turn a O(2^n) recursion algorithm to a O(n) algorithm. 
 
+Two other methods have O(logn) time:
 
+One is binet's method, claims that the Fn = Q^n-1[0,0], where Q = [[1,1],[1,0]], the initial condition. If we multiply matrix just one by one, still O(n), but if we represent a matrix multiplication with a tree, then we can do it in log(n) time. 
+
+Another has close form solution 
