@@ -60,3 +60,13 @@ Two Ways:
 1. Of course we can brute force, O(n^2)
 
 2. But a better O(n) exist, idea being that we first select the wildest as a starting candidate, then moving inward, since only the shorter line of the two lines at boundary matters, we will move the shorter line once, and check if the water contained can be more than before. With less width, only increasing length of the shorter boundary helps. 
+
+
+## 13. Roman to Integer
+
+Two ways: Both O(n)
+
+1. One approach is conditioning, if we see a letter that represents a smaller number is in front of a letter that represents a bigger number, then we distract it. Else we add it
+
+2. Manipulate the string so we always add, for example, IV could be written as IIII, IX could be written as VIIII, weird method but seems to be faster
+
