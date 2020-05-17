@@ -78,4 +78,12 @@ Three different ways:
 
 2. Vertical search, compare all strings, char by char O(S), S is amount of characters in all strings
 
-3. Binary search, idea is to find a string, split in half, and search in all other strings, but slower, O(S*logm), m is the length of the string being compared. 
+3. Binary search, idea is to find a string, split in half, and search in all other strings, but slower, O(S*logm), m is the length of the string being compared.
+
+## 70. Climbing Stairs
+
+Basically just a Fibonacci:
+
+Use Memoization to turn a O(2^n) recursion algorithm to a O(n) algorithm. 
+
+
