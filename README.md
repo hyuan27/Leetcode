@@ -52,3 +52,11 @@ Three ways
 1. First one is just to compare string to reversed string, one line code woo!
 
 2. Second and Third try to only compare half the number, one by math, one by string, but not much improve on time, technically all three are O(log(x))
+
+## 11. Container With Most Water
+
+Two Ways: 
+
+1. Of course we can brute force, O(n^2)
+
+2. But a better O(n) exist, idea being that we first select the wildest as a starting candidate, then moving inward, since only the shorter line of the two lines at boundary matters, we will move the shorter line once, and check if the water contained can be more than before. With less width, only increasing length of the shorter boundary helps. 
