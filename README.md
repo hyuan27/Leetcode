@@ -25,6 +25,16 @@ Two ways:
 
 2. O(n): only go through once, update the start index pointer
 
+## 5. Longest Palindromic Substring
+
+DP question: 
+
+1. Classic DP, store information as we go, build up from short substrings to longs
+
+2. Still O(n^2) time, but space complexity is now constant
+
+3. Still O(n^2) but very fast. The idea is that every character we add, we at most add 1 or 2 length to the longest palindrme. very cool idea. 
+
 ## 7. Reverse Integer:
 
 Two ways
