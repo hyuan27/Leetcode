@@ -70,3 +70,12 @@ Two ways: Both O(n)
 
 2. Manipulate the string so we always add, for example, IV could be written as IIII, IX could be written as VIIII, weird method but seems to be faster
 
+## 14. Longest Common Prefix
+
+Three different ways: 
+
+1. Horizontal search, compare pair by pair, O(S)
+
+2. Vertical search, compare all strings, char by char O(S), S is amount of characters in all strings
+
+3. Binary search, idea is to find a string, split in half, and search in all other strings, but slower, O(S*logm), m is the length of the string being compared. 
