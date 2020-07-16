@@ -98,4 +98,5 @@ Very standard BFS, linear time
 
 ### 993. Cousins in Binary Tree:
 
-Can do this both use DFS and BFS, BFS achieve slightly better running time as it checks 
+Can do this both use DFS and BFS, BFS achieve slightly better running time as it checks level by level, have bigger chance of stopping early. 
+But both have worst case O(n) linear time. And also uses linear space. 
