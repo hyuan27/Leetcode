@@ -95,3 +95,7 @@ Another has close form solution
 ## 429. N-ary Tree Level Order Traversal:
 
 Very standard BFS, linear time
+
+### 993. Cousins in Binary Tree:
+
+Can do this both use DFS and BFS, BFS achieve slightly better running time as it checks 
