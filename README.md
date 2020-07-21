@@ -96,7 +96,11 @@ Another has close form solution
 
 Very standard BFS, linear time
 
-### 993. Cousins in Binary Tree:
+## 532. K-diff Pairs in Array
+
+Use a counter in case k = 0, when k >0, just use in method, O(n)
+
+## 993. Cousins in Binary Tree:
 
 Can do this both use DFS and BFS, BFS achieve slightly better running time as it checks level by level, have bigger chance of stopping early. 
 But both have worst case O(n) linear time. And also uses linear space. 
