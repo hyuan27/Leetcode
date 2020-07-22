@@ -100,6 +100,12 @@ Very standard BFS, linear time
 
 Use a counter in case k = 0, when k >0, just use in method, O(n)
 
+## 796. Rotate String
+
+The O(n^2) method is very easy to do, but there are clean one line versions
+
+The O(n) method using hash function require lots of modula arithmetic background in implementation, could be tough to write. But indeed faster
+
 ## 993. Cousins in Binary Tree:
 
 Can do this both use DFS and BFS, BFS achieve slightly better running time as it checks level by level, have bigger chance of stopping early. 
