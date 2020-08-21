@@ -80,6 +80,10 @@ Three different ways:
 
 3. Binary search, idea is to find a string, split in half, and search in all other strings, but slower, O(S*logm), m is the length of the string being compared.
 
+## 50. Pow(x, n)
+
+Best is O(logn), can do it in both iterative and recursive. 
+
 ## 70. Climbing Stairs
 
 Basically just a Fibonacci:
