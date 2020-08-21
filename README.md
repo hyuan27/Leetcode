@@ -110,3 +110,7 @@ The O(n) method using hash function require lots of modula arithmetic background
 
 Can do this both use DFS and BFS, BFS achieve slightly better running time as it checks level by level, have bigger chance of stopping early. 
 But both have worst case O(n) linear time. And also uses linear space. 
+
+## 1539. Kth Missing Positive Number:
+
+Binary Search is the best approach, O(logn) time with O(1) space
