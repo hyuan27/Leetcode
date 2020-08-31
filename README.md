@@ -110,6 +110,10 @@ The O(n^2) method is very easy to do, but there are clean one line versions
 
 The O(n) method using hash function require lots of modula arithmetic background in implementation, could be tough to write. But indeed faster
 
+## 829. Consecutive Number Sum
+
+O(sqrt(N)) time. Trick is to use math to figure out that if N = x + x+1 + x+2 + x+k-1, k >=1, then N = k*x + k(k-1)/2, and then figure out N-k(k-1)/2 must can evenly divide k, and try k from 0.
+
 ## 993. Cousins in Binary Tree:
 
 Can do this both use DFS and BFS, BFS achieve slightly better running time as it checks level by level, have bigger chance of stopping early. 
