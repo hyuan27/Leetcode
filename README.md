@@ -104,6 +104,10 @@ Very standard BFS, linear time
 
 Use a counter in case k = 0, when k >0, just use in method, O(n)
 
+## 547. Friend Circles
+
+DFS, running time is O(n^2), n is the number of people
+
 ## 780. Reaching Points
 
 Idea is to go from the destination to the starting point, by using module. O(logN) and N is the maximum of tx and ty
