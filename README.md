@@ -104,6 +104,10 @@ Very standard BFS, linear time
 
 Use a counter in case k = 0, when k >0, just use in method, O(n)
 
+## 780. Reaching Points
+
+Idea is to go from the destination to the starting point, by using module. O(logN) and N is the maximum of tx and ty
+
 ## 796. Rotate String
 
 The O(n^2) method is very easy to do, but there are clean one line versions
