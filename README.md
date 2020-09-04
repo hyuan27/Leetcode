@@ -130,6 +130,10 @@ But both have worst case O(n) linear time. And also uses linear space.
 ## 1041. Robot Bounded In Circle:
 Idea is that if after the sequence, it is either back at origin, or facing a different direction then north, then it will come back to the origin eventually(in 1 or 3 iterations). Time is O(n) 
 
+## 1249. Minimum Remove to Make Valid Parentheses:
+
+Basic idea is to use a stack, the running time is O(n)
+
 ## 1539. Kth Missing Positive Number:
 
 Binary Search is the best approach, O(logn) time with O(1) space
