@@ -88,6 +88,13 @@ Using stacks again, O(n)
 
 Best is O(logn), can do it in both iterative and recursive. 
 
+## 62. Unique Path
+
+We can either use dp or math
+DP O(M*N)
+If we treat n factorial running time is O(n), then math approach is better O(M+N)
+If we treat n factorial running time is O(n^2logn), aka considering the complexity of bits multiplication, then math is worse
+
 ## 70. Climbing Stairs
 
 Basically just a Fibonacci:
