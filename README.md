@@ -100,6 +100,10 @@ One is binet's method, claims that the Fn = Q^n-1[0,0], where Q = [[1,1],[1,0]],
 
 Another has close form solution 
 
+## 91. Decode Ways
+
+DP problem, running time is O(n). Storage is also O(n) in this code, but could easily reduce to O(1)
+
 ## 429. N-ary Tree Level Order Traversal:
 
 Very standard BFS, linear time
